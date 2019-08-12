@@ -20,6 +20,6 @@ public class Employees {
         System.out.println(age + " - летний Сотрудник " + fio + "на должности " + position + "\nс зарплатой " + salary + " руб/день " + " номер телефона и e-mail :" + phoneNumber + "," + email);
     }
     public String toString(){
-        return "ФИО: "+fio + ",Должность:  " + position + ",I-mail: " + email + " , номер: " + phoneNumber + ", возраст :" + age+".";
+        return "ФИОOO: "+fio + ",Должность:  " + position + ",I-mail: " + email + " , номер: " + phoneNumber + ", возраст :" + age+".";
     }
 }
