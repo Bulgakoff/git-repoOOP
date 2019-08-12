@@ -19,4 +19,11 @@ public class Employees {
     void doInfoEmployees() {
         System.out.println(age + " - летний Сотрудник " + fio + "на должности " + position + "\nс зарплатой " + salary + " руб/день " + " номер телефона и e-mail :" + phoneNumber + "," + email);
     }
+    public String toString(){
+        return "ФИОOO: "+fio + ",Должность:  " + position + ",I-mail: " + email + " , номер: " + phoneNumber + ", возраст :" + age+".";
+    }
+
+    public int getAge() {
+        return this.age;
+    }
 }
