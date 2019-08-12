@@ -11,6 +11,17 @@ public class EmployeeMain {
 
         System.out.println(arrayOfEmployees[0]);//to String
         arrayOfEmployees[0].doInfoEmployees();
+        System.out.println();
+
+for (Employees pointEl:arrayOfEmployees){
+    if (pointEl.getAge()>40){//геттер getAge передает(возвращает) инфу
+        //pointEl.doInfoEmployees();
+        System.out.println();
+        System.out.println(pointEl);//to String
+    }
+}
+
+
     }
 
 }

@@ -22,4 +22,8 @@ public class Employees {
     public String toString(){
         return "ФИОOO: "+fio + ",Должность:  " + position + ",I-mail: " + email + " , номер: " + phoneNumber + ", возраст :" + age+".";
     }
+
+    public int getAge() {
+        return this.age;
+    }
 }
